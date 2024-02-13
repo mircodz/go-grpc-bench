@@ -1,0 +1,61 @@
+syntax = "proto3";
+
+option go_package = "github.com/mircodz/go-grpc-bench/pb";
+
+// Timeseries
+
+message TimeSeries {
+  repeated Label labels   = 1;
+  repeated Sample samples = 2;
+}
+
+message Label {
+  string name  = 1;
+  string value = 2;
+}
+
+message Sample {
+  double value    = 1;
+  int64 timestamp = 2;
+}
+
+// Address Book
+
+message AddressBook {
+  map<string, Folder> folders = 1;
+}
+
+message Folder {
+  string description     = 1;
+  repeated Person people = 2;
+}
+
+message Person {
+  string name            = 1;
+  int32 age              = 2;
+  repeated string emails = 3;
+
+  oneof contact_info {
+    PhoneNumber phone_number = 5;
+    Address address          = 6;
+  }
+}
+
+message Address {
+  string street   = 1;
+  string city     = 2;
+  string state    = 3;
+  string zip_code = 4;
+}
+
+message PhoneNumber {
+  string number  = 1;
+  PhoneType type = 2;
+}
+
+enum PhoneType {
+  PHONE_TYPE_UNSPECIFIED = 0;
+  PHONE_TYPE_MOBILE      = 1;
+  PHONE_TYPE_HOME        = 2;
+  PHONE_TYPE_WORK        = 3;
+}
