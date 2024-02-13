@@ -9,18 +9,19 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/mircodezorzi/go-grpc-bench/pb"
+	"github.com/CrowdStrike/csproto"
+
+	"github.com/mircodezorzi/go-proto-bench/pb"
 )
 
 type Message interface {
-	Marshal() ([]byte, error)
-	MarshalTo(dest []byte) error
-	Unmarshal(p []byte) error
-
 	MarshalVT() ([]byte, error)
 	MarshalToVT(dAtA []byte) (int, error)
 	UnmarshalVT(dAtA []byte) error
 
+	csproto.Marshaler
+	csproto.MarshalerTo
+	csproto.Unmarshaler
 	proto.Message
 }
 

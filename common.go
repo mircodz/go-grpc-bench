@@ -5,7 +5,7 @@ import (
 	"math"
 	"math/rand"
 
-	"github.com/mircodezorzi/go-grpc-bench/pb"
+	"github.com/mircodezorzi/go-proto-bench/pb"
 )
 
 func Bytes(s uint64) string {

@@ -1,3 +1,5 @@
+# Go Protobuf Benchmarks
+
 ```text
                                       marshal             unmarshal           alloc (unmarshal)
 timeseries - small        vtproto     2060 ns/op          10095 ns/op         27 kB/op
@@ -25,3 +27,5 @@ address book - large      vtproto     121558263 ns/op     426731444 ns/op     95
                           csproto*    110876516 ns/op     356000472 ns/op     729 MB/op
                           proto       241064441 ns/op     659395375 ns/op     954 MB/op
 ```
+
+Note: `csproto*` was generated using `enableunsafedecode=true`
