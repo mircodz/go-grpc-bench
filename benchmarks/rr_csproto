@@ -1,0 +1,15 @@
+BenchmarkStreamReadEndpoint-14    	   42524	     27623 ns/op	   33737 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   46795	     25302 ns/op	   33718 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   46329	     25250 ns/op	   33719 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   48398	     25737 ns/op	   33718 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   48769	     24730 ns/op	   33719 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   47421	     25191 ns/op	   33719 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   48015	     24789 ns/op	   33719 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   49270	     27131 ns/op	   33718 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   47138	     25747 ns/op	   33718 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   45414	     27869 ns/op	   33717 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   47791	     25363 ns/op	   33719 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   47956	     25576 ns/op	   33719 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   46278	     25210 ns/op	   33718 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   47606	     28748 ns/op	   33718 B/op	     336 allocs/op
+BenchmarkStreamReadEndpoint-14    	   44601	     26857 ns/op	   33718 B/op	     336 allocs/op

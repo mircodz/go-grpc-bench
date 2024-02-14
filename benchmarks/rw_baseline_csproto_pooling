@@ -1,0 +1,11 @@
+                      │ rw_baseline │       rw_csproto_pooling       │
+                      │   sec/op    │    sec/op     vs base          │
+RemoteWritehandler-14   4.559µ ± 3%   4.276µ ± 11%  ~ (p=0.170 n=15)
+
+                      │  rw_baseline  │          rw_csproto_pooling          │
+                      │     B/op      │     B/op      vs base                │
+RemoteWritehandler-14   13.456Ki ± 0%   5.990Ki ± 0%  -55.48% (p=0.000 n=15)
+
+                      │ rw_baseline │         rw_csproto_pooling         │
+                      │  allocs/op  │ allocs/op   vs base                │
+RemoteWritehandler-14    47.00 ± 0%   38.00 ± 0%  -19.15% (p=0.000 n=15)

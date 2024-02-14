@@ -1,0 +1,11 @@
+                      │ rr_baseline │             rr_csproto              │
+                      │   sec/op    │   sec/op     vs base                │
+StreamReadEndpoint-14   21.85µ ± 2%   25.58µ ± 6%  +17.05% (p=0.000 n=15)
+
+                      │ rr_baseline  │              rr_csproto              │
+                      │     B/op     │     B/op      vs base                │
+StreamReadEndpoint-14   38.51Ki ± 0%   32.93Ki ± 0%  -14.49% (p=0.000 n=15)
+
+                      │ rr_baseline │            rr_csproto             │
+                      │  allocs/op  │ allocs/op   vs base               │
+StreamReadEndpoint-14    347.0 ± 0%   336.0 ± 0%  -3.17% (p=0.000 n=15)

@@ -1,0 +1,15 @@
+BenchmarkRemoteWritehandler-14    	  281846	      4740 ns/op	    6102 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  312386	      4110 ns/op	    6129 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  309343	      4174 ns/op	    6131 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  299635	      4062 ns/op	    6138 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  304051	      4276 ns/op	    6135 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  306931	      6492 ns/op	    6133 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  232386	      4681 ns/op	    6141 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  311690	      4859 ns/op	    6130 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  297572	      4186 ns/op	    6140 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  319413	      4196 ns/op	    6125 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  306250	      4157 ns/op	    6134 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  316141	      4259 ns/op	    6127 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  305644	      4452 ns/op	    6134 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  288836	      5679 ns/op	    6146 B/op	      38 allocs/op
+BenchmarkRemoteWritehandler-14    	  304276	      4528 ns/op	    6135 B/op	      38 allocs/op
