@@ -1,0 +1,11 @@
+                      │ rw_baseline │         rw_csproto_nounsafe         │
+                      │   sec/op    │   sec/op     vs base                │
+RemoteWritehandler-14   4.559µ ± 3%   5.145µ ± 3%  +12.85% (p=0.000 n=15)
+
+                      │ rw_baseline  │         rw_csproto_nounsafe          │
+                      │     B/op     │     B/op      vs base                │
+RemoteWritehandler-14   13.46Ki ± 0%   12.03Ki ± 0%  -10.62% (p=0.000 n=15)
+
+                      │ rw_baseline │        rw_csproto_nounsafe         │
+                      │  allocs/op  │ allocs/op   vs base                │
+RemoteWritehandler-14    47.00 ± 0%   60.00 ± 0%  +27.66% (p=0.000 n=15)
